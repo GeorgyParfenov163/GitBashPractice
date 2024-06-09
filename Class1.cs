@@ -20,5 +20,10 @@ namespace GitBashPractice
         public int Age { get; private set; }
         public string Position { get; private set; }
         public int Salary { get; private set; }
+
+        public string GetInfo()
+        {
+            return $"Имя {Name}, возраст {Age}, Должность {Position}, Зарплата {Salary}";
+        }
     }
 }

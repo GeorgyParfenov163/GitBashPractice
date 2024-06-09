@@ -11,8 +11,8 @@ namespace GitBashPractice
         static void Main(string[] args)
         {
             Class1 Gosha = new Class1("Гоша", 27, "Разработчик");
-
-            Console.WriteLine(Gosha.Name);
+            Console.WriteLine(Gosha.GetInfo()); 
+            //Console.WriteLine(Gosha.Name);
         }
     }
 }
