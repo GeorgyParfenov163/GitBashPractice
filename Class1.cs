@@ -10,6 +10,7 @@ namespace GitBashPractice
     {
         public Class1(string name, int age, string position)
         {
+            Console.WriteLine("Hello git again");
             Name = name;
             Age = age;
             Position = position;
